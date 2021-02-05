@@ -8,8 +8,12 @@
 </head>
 <body>
   <div id="container">
+    <div id="results">
+      <h1 id="resultField"></h1>
+      <p id="horoscope"></p>
+    </div>
     <div id="selector">
-      <select name="month" id="month">
+      <select name="month" id="month" autocomplete="off">
         <option value="default" selected>Month</option>
         <option value="jan">January</option>
         <option value="feb">February</option>
@@ -27,10 +31,6 @@
       <select name="day" id="day" disabled="disabled">
         <option value="" selected>Day</option>
       </select>
-    </div>
-    <div id="results">
-      <h1 id="resultField"></h1>
-      <p id="horoscope"></p>
     </div>
   </div>
  
